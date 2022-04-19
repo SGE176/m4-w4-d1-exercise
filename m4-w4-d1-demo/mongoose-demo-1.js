@@ -12,5 +12,5 @@ db.once('open', function() {
   const Fruit = mongoose.model('Fruit', fruitSchema);
 
   const apple = new Fruit({ name: 'apple' });
-  console.log(a.name);// 'apple'
+  console.log(apple.name); //'apple'
 });
